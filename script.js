@@ -41,7 +41,6 @@ Array.from(boxes).forEach((element) => {
         if(boxtext.innerText === '') {
             boxtext.innerText = turn
             turn = changeTurn()
-            ting.play()
             checkWin()
             if(!isgameover) {
                 document.getElementsByClassName("info")[0].innerText = "Turn for " + turn
