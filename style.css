@@ -108,4 +108,10 @@ nav ul {
         grid-template-rows: repeat(3, 20vw);
         grid-template-columns: repeat(3, 20vw);
     }
+    .info-reset {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 15px;
+    }
 }
